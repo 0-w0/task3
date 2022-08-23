@@ -1,12 +1,12 @@
-ul {
+.content {
     list-style-type: square;
 }
 
-ol {
+.what-can-i-do-list {
     list-style-type: upper-roman;
 }
 
-a: active {
+a:active {
     color: red;
 }
 
@@ -14,9 +14,8 @@ a:visited {
     color: red;
 }
 
-table {
+.tametable {
     background: linear-gradient(#5d9979, #032111);
-    left=0; right=0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,7 +24,7 @@ body {
     background: linear-gradient(#a9e56c, #41691a);
 }
 
-img.displayed {
+.displayed {
     display:block;
     margin-left: auto;
     margin-right: auto;

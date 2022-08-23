@@ -2,23 +2,29 @@ body {
     background-color: #f8f8f8;
 }
 
-a {
+.content-ref {
     padding: 5px;
     float: left;
     text-decoration: none;
 }
 
-div {
+.content-ref-wrap {
     margin-top: -30px;
     float: right;
 }
 
-a p {
+.content-ref .unactive-ref,
+.content-ref .active-ref {
     padding: 17px 20px;
-    background-color: #ebe8df;
-    border: 2px solid #dad6cf;
+    border-width: 2px;
+    border-style: solid;
     font-size: 18px;
+}
+
+.content-ref .unactive-ref {
     color: #aa8845;
+    background-color: #ebe8df;
+    border-color: #dad6cf;
 }
 
 .main {
@@ -26,7 +32,7 @@ a p {
     font-size: 18px;
 }
 
-.active {
+.content-ref .active-ref {
     color: white;
     font-weight: bolder;
     background-color: #a44823;
